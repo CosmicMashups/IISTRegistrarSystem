@@ -1,0 +1,207 @@
+	body {
+	background-color: #456166;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: Century Gothic;
+	}
+	
+	.account {
+	margin-top: 200px;
+	margin-left: 450px;
+	}
+
+	.signup {
+	margin-left: 250px;
+	}
+
+	.form {
+	box-shadow: 10px 10px 5px #696969;
+	}
+
+	.form, th, td {
+	padding: 10;
+	border-spacing: 25;
+	border-radius: 15px;
+	border-spacing: 5px;
+	border-collapse: separate;
+	background-color: #ffffff;
+	}
+
+	td {
+	font-size: 16px;
+	color: #696969;
+	}
+
+	.form-signin {
+	padding: 15px;
+	}
+
+	.form-signin .form-signin-heading .form-signin .checkbox {
+	margin-bottom: 10px;
+	}
+	
+	.form-signin .checkbox {
+	font-weight: normal;
+	}
+	
+	.form-signin .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box sizing: border-box;
+	-moz-box sizing: border-box;
+	-box sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+	}
+
+	.form-signin .form-control:focus {
+	z-index: 2;
+	}
+
+	.form-signin input[type = "text"] {
+	padding: 5px 10px;
+	display: inline-block;
+	color: #ccc
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	}
+
+	.form-signin select {
+	padding: 5px 10px;
+	display: inline-block;
+	color: #ccc
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	}
+
+	.form-signin input[type = "email"] {
+	padding: 5px 10px;
+	display: inline-block;
+	color: #ccc
+	border: `1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	}
+
+	.form-signin input[type = "password"] {
+	padding: 5px 10px;
+	display: inline-block;
+	color: #ccc
+	border: `1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	}
+
+	.form-signin input[type = "number"] {
+	padding: 5px 10px;
+	display: inline-block;
+	color: #ccc
+	border: `1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	}
+
+	.form-signin input:focus {
+	color: #000;
+	}
+
+	input {
+	color: #696969;
+	}
+
+	.button {
+  	display: inline-block;
+  	border-radius: 4px;
+  	background-color: #456166;
+  	border: none;
+  	color: #FFFFFF;
+  	text-align: center;
+  	font-size: 16px;
+  	padding: 12px;
+  	width: 300px;
+  	transition: all 0.5s;
+  	cursor: pointer;
+	vertical-align: middle;
+	}
+
+	.button span {
+  	cursor: pointer;
+  	display: inline-block;
+  	position: relative;
+  	transition: 0.5s;
+	}
+
+	.button span:after {
+  	content: '\00bb';
+  	position: absolute;
+  	opacity: 0;
+  	top: 0;
+  	right: -20px;
+  	transition: 0.5s;
+	}
+
+	.button:hover span {
+  	padding-right: 25px;
+	}
+
+	.button:hover span:after {
+  	opacity: 1;
+  	right: 0;
+	}
+
+	.form tr button:hover{
+	background-color: #2ECC71;
+	}
+
+	slidee:submit {
+			0%{
+				left: 0;
+			}
+			10%{
+				left: 0;
+			}
+			25%{
+				left: -100%;
+			}
+			35%{
+				left: -100%;
+			}
+			45%{
+				left: -200%;
+			}
+			55%{
+				left: -200%;
+			}
+			65%{
+				left: -300%;
+			}
+			75%{
+				left: -300%;
+			}
+			85%{
+				left: -400%;
+			}
+			95%{
+				left: -400%;
+			}
+			100%{
+				left: -500%;
+			}
+		}
+	
+		#slider{
+			overflow: hidden;
+		}
+
+		#slider figure{
+			position: relative;
+			animation: 1s slider infinite;
+		}
