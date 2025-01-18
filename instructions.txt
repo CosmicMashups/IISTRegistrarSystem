@@ -1,0 +1,19 @@
+Pakilagay ang folder na ito sa C:\xampp\htdocs
+
+1. Kapag mali yung position ng navigation bar, irefresh niyo lang ng irefresh tapos babalik na sa normal.
+
+2. Kapag hiningi ni maam denzel or maam omugtong yung status ng estudyante, punta kayo sa Home page or localhost/registrar/home.php 
+   tapos pindutin niyo yung Request. By the way, huwag niyo muna papakita yun hangga't di pa tinatanong kasi di ko na natapos yun.
+
+3. localhost/registrar/login.php yung first page ng website natin
+
+4. Siguraduhin niyong nakaconnect sa wifi hotspot or data yung laptop ni wynzen kundi hindi gagana yung mga logo.
+
+5. Bago niyo ipakita kay maam yung laptop, siguraduhin niyong nakaopen yung localhost/registrar/login.php at localhost/phpmyadmin.
+
+6. Kaya niyo nang iexplain kay maam yan. Ako na gumawa ng buong website kaya kayo naman mag-explain.
+
+
+Note: Kapag may kailangan kayo, message niyo nalang ako or yung mga kasama ko sa IY tulad ni mj, ani, or diwata. 
+
+      Hindi ko kayo maiintindihan kapag sa tawag ko kayo kinausap.
